@@ -1,0 +1,7 @@
+spring:
+  ai:
+    openai:
+      api-key: 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
+      base-url: https://integrate.api.nvidia.com/v1
+      embedding:
+        model: nvidia/nv-embed-v1

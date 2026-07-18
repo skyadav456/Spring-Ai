@@ -1,0 +1,15 @@
+spring:
+  ai:
+    openai:
+      base-url: https://integrate.api.nvidia.com/v1/
+      api-key: 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
+      chat:
+        model: nvidia/nemotron-3-nano-30b-a3b
+#        temperature: 1.00
+#        top-p: 0.95
+
+
+app:
+  ai:
+    system-prompt: >-
+      You are a Java assistant. Return every answer in well structured  format,.
